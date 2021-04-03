@@ -10,6 +10,11 @@ body{
     background: transparent;
 }
 
+.info{
+    z-index: 2;
+    position: relative;
+}
+
 .navbar-collapse{
     color:red;
 }
