@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.parallax{
+    min-height: 600px;
+    background: transparent;
+}
+
+.navbar-collapse{
+    color:red;
+}
+
+h1, footer{
+    color: blanchedalmond;
+}
+
+#main{
+    background-color: black;
+}
+
+.nav-link{
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#main{
+    width: 100vh;
+}
+
+
