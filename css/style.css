@@ -1,6 +1,5 @@
 body{
-    background-color: grey;
-    max-width: 100%;
+    background-color: #d1b2b0;
     margin: 0 auto;
     font-size: 24px;
 }
@@ -15,8 +14,40 @@ body{
     position: relative;
 }
 
-.navbar-collapse{
-    color:red;
+.navbar, .dropdown-item{
+    overflow: visible !important;
+    background: #d1b2b0;
+    transition: 0.4s; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-item {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 5px;
+}
+  
+.navbar #h1 {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+
+}
+
+@media screen and (max-width: 580px) {
+      .navbar {
+      padding: 20px 10px !important;
+}
+
+.navbar a {
+      float: none;
+      display: block;
+      text-align: left;
 }
 
 h1, footer{
@@ -26,18 +57,8 @@ h1, footer{
 #main{
     background-color: black;
 }
-
-.nav-link{
-    float: left;
-    color: #f2f2f2;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
 #main{
     width: 100vh;
 }
 
-
+}
